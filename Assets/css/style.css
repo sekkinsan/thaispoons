@@ -1,0 +1,43 @@
+.custom-parallax {
+  background-image: url("../img/bg1.jpeg");
+  min-height: 400px;
+}
+
+.custom_parallax2 {
+  background-image: url("../img/bg2.jpg");
+  height: 400px;
+}
+
+.custom_parallax3 {
+  background-image: url("../img/bg3.jpg");
+  min-height: 400px;
+}
+
+.custom_parallax4 {
+  background-image: url("../img/bg4.jpg");
+  min-height: 400px;
+}
+
+.custom-parallax, .custom_parallax2, .custom_parallax3, .custom_parallax4 {
+  opacity: 0.70;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body, html {
+  height: 100%
+}
+
+h1 {
+  font-weight: 200;
+}
+
+#menu {
+  background-color: teal;
+}
+
+#lunch-special {
+  height: 400px;
+}
