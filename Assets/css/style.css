@@ -3,22 +3,22 @@
   min-height: 400px;
 }
 
-.custom_parallax2 {
+.custom-parallax2 {
   background-image: url("../img/bg2.jpg");
   height: 400px;
 }
 
-.custom_parallax3 {
+.custom-parallax3 {
   background-image: url("../img/bg3.jpg");
   min-height: 400px;
 }
 
-.custom_parallax4 {
+.custom-parallax4 {
   background-image: url("../img/bg4.jpg");
   min-height: 400px;
 }
 
-.custom-parallax, .custom_parallax2, .custom_parallax3, .custom_parallax4 {
+.custom-parallax, .custom-parallax2, .custom-parallax3, .custom-parallax4 {
   opacity: 0.70;
   background-attachment: fixed;
   background-position: center;
