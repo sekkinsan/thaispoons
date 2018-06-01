@@ -4,4 +4,7 @@ $(document).ready(function(){
 
   //init parallax
   $('.parallax').parallax();
+
+  //init tabs
+  $('.tabs').tabs();
 })
