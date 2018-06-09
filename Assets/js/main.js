@@ -7,4 +7,7 @@ $(document).ready(function(){
 
   //init tabs
   $('.tabs').tabs();
+
+  //init dropdown
+  $('.dropdown-trigger').dropdown();
 })

@@ -1,21 +1,21 @@
+* {
+  font-family: proxima-nova;
+}
+
 .custom-parallax {
   background-image: url("../img/bg1.jpeg");
-  min-height: 400px;
 }
 
 .custom-parallax2 {
   background-image: url("../img/bg2.jpg");
-  height: 400px;
 }
 
 .custom-parallax3 {
   background-image: url("../img/bg3.jpg");
-  min-height: 400px;
 }
 
 .custom-parallax4 {
   background-image: url("../img/bg4.jpg");
-  min-height: 400px;
 }
 
 .custom-parallax, .custom-parallax2, .custom-parallax3, .custom-parallax4 {
@@ -24,6 +24,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 400px;
 }
 
 body, html {
@@ -34,8 +35,40 @@ h1 {
   font-weight: 200;
 }
 
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#nav-mobile {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.main-text {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#home {
+  color: white;
+  text-align: center;
+}
+
 #menu {
-  background-color: teal;
+  background: transparent;
+}
+
+#lunch-special{
+  background: transparent;
+  color: white;
+
+}
+
+#catering {
+  background: transparent;
+  color: white;
 }
 
 #lunch-special {
@@ -45,8 +78,4 @@ h1 {
 .caption {
   font-size: 40px;
   text-align: center;
-}
-
-.border {
-  background-color: cornsilk;
 }
