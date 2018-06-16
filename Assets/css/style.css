@@ -62,17 +62,37 @@ h1 {
 
 #lunch-special{
   background: transparent;
-  color: white;
+  height: 400px
+}
 
+#story {
+  background:transparent;
+  color: white;
+  height: 100%;
+  
+}
+
+#sidenav {
+  height: 1200px;
+  z-index: 1;
+  background-color: teal;
+  overflow-x: hidden;
+  padding-top: 10px;
+}
+
+#sidenav-items {
+  width: 60px;
+}
+
+#sidenav-story {
+  color: white;
+  background: transparent;
+  padding-top: 10px;
 }
 
 #catering {
   background: transparent;
   color: white;
-}
-
-#lunch-special {
-  height: 400px;
 }
 
 .caption {
