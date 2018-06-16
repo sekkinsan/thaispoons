@@ -10,4 +10,12 @@ $(document).ready(function(){
 
   //init dropdown
   $('.dropdown-trigger').dropdown();
+
+  //init pushpin
+  $('.pushpin').pushpin();
+
+  $('#navbar').pushpin({
+    top: $('#navbar').offset().top
+  });
+
 })

@@ -41,6 +41,14 @@ h1 {
   text-transform: uppercase;
 }
 
+#navbar {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
 #nav-mobile {
   font-weight: bold;
   text-transform: uppercase;
@@ -69,25 +77,18 @@ h1 {
   background:transparent;
   color: white;
   height: 100%;
-  
 }
 
-#sidenav {
-  height: 1200px;
-  z-index: 1;
-  background-color: teal;
-  overflow-x: hidden;
-  padding-top: 10px;
+#stories_TOC {
+  position: relative;
 }
 
-#sidenav-items {
-  width: 60px;
+.pin-top, .pin-bottom {
+  position: relative;
 }
 
-#sidenav-story {
-  color: white;
-  background: transparent;
-  padding-top: 10px;
+.pinned {
+  position: fixed !important;
 }
 
 #catering {
