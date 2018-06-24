@@ -18,4 +18,16 @@ $(document).ready(function(){
     top: $('#navbar').offset().top
   });
 
+
+//card hover
+$(function() {
+  $('.card').hover(
+      function() {
+          $(this).find('> .card-image > img.activator').click();
+      }, function() {
+          $(this).find('> .card-reveal > .card-title').click();
+      }
+  );
+});
+
 })
