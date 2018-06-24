@@ -54,9 +54,23 @@ h1 {
   text-transform: uppercase;
 }
 
+#footer {
+  background-color: black;
+  color: white;
+  z-index: 1;
+}
+
+#contact-text {
+  font-size: 14px;
+}
+
 .main-text {
   font-size: 40px;
   font-weight: bold;
+}
+
+#hours, #location {
+  
 }
 
 #home {
