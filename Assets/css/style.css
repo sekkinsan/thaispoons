@@ -89,8 +89,13 @@ h1 {
 
 #story {
   background:transparent;
-  color: white;
+  color: black;
   height: 100%;
+}
+
+.tabs {
+  background: transparent;
+  color: black;
 }
 
 #stories_TOC {
