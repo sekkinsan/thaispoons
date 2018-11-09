@@ -7,15 +7,15 @@
 }
 
 .custom-parallax2 {
-  background-image: url("../img/bg2.jpg");
+  background-color: black;
 }
 
 .custom-parallax3 {
-  background-image: url("../img/bg3.jpg");
+  background-color: black;
 }
 
 .custom-parallax4 {
-  background-image: url("../img/bg4.jpg");
+  background-color: black;
 }
 
 .custom-parallax, .custom-parallax2, .custom-parallax3, .custom-parallax4 {
@@ -33,6 +33,25 @@ body, html {
 
 h1 {
   font-weight: 200;
+}
+
+h3 {
+  color: white;
+
+}
+
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
 }
 
 .title {
@@ -55,7 +74,7 @@ h1 {
 }
 
 #footer {
-  background-color: black;
+  background-color: darkblue;
   color: white;
   z-index: 1;
 }
